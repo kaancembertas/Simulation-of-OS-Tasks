@@ -1,0 +1,1283 @@
+---------------------
+Clock: 0
+Free Areas: [450]
+Ready Queue: 
+IO Ready Queue: P1,
+Current Process: P1
+Current IO: NULL
+
+[P1] Process Id: 1
+[P1] Size: 100
+[P1] Start Address:350
+[P1] Incoming Time: 0 ms
+[P1] Remain Execution Time: 9 ms
+[P1] IO Requests: []
+[P1] IO Burst Time: 1
+[P1] IO Remain Time: 1
+
+---------------------
+Clock: 1
+Free Areas: [550]
+Ready Queue: P1,
+IO Ready Queue: 
+Current Process: P2
+Current IO: P1
+
+[P1] Process Id: 1
+[P1] Size: 100
+[P1] Start Address:350
+[P1] Incoming Time: 0 ms
+[P1] Remain Execution Time: 9 ms
+[P1] IO Requests: []
+[P1] IO Burst Time: 1
+[P1] IO Remain Time: 0
+
+[P2] Process Id: 2
+[P2] Size: 100
+[P2] Start Address:450
+[P2] Incoming Time: 1 ms
+[P2] Remain Execution Time: 1 ms
+[P2] IO Requests: [1]
+[P2] IO Burst Time: 1
+[P2] IO Remain Time: 0
+
+---------------------
+Clock: 2
+Free Areas: [450, 650]
+Ready Queue: P1,P3,
+IO Ready Queue: 
+Current Process: P2
+Current IO: NULL
+
+[P1] Process Id: 1
+[P1] Size: 100
+[P1] Start Address:350
+[P1] Incoming Time: 0 ms
+[P1] Remain Execution Time: 9 ms
+[P1] IO Requests: []
+[P1] IO Burst Time: 1
+[P1] IO Remain Time: 0
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 4 ms
+[P3] IO Requests: [2]
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+---------------------
+Clock: 3
+Free Areas: [650]
+Ready Queue: P3,P4,
+IO Ready Queue: 
+Current Process: P1
+Current IO: NULL
+
+[P1] Process Id: 1
+[P1] Size: 100
+[P1] Start Address:350
+[P1] Incoming Time: 0 ms
+[P1] Remain Execution Time: 8 ms
+[P1] IO Requests: []
+[P1] IO Burst Time: 1
+[P1] IO Remain Time: 0
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 4 ms
+[P3] IO Requests: [2]
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 5 ms
+[P4] IO Requests: [2]
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+---------------------
+Clock: 4
+Free Areas: [750]
+Ready Queue: P3,P4,P5,
+IO Ready Queue: 
+Current Process: P1
+Current IO: NULL
+
+[P1] Process Id: 1
+[P1] Size: 100
+[P1] Start Address:350
+[P1] Incoming Time: 0 ms
+[P1] Remain Execution Time: 7 ms
+[P1] IO Requests: []
+[P1] IO Burst Time: 1
+[P1] IO Remain Time: 0
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 4 ms
+[P3] IO Requests: [2]
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 5 ms
+[P4] IO Requests: [2]
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 3 ms
+[P5] IO Requests: [2]
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+---------------------
+Clock: 5
+Free Areas: [850]
+Ready Queue: P3,P4,P5,P6,
+IO Ready Queue: 
+Current Process: P1
+Current IO: NULL
+
+[P1] Process Id: 1
+[P1] Size: 100
+[P1] Start Address:350
+[P1] Incoming Time: 0 ms
+[P1] Remain Execution Time: 6 ms
+[P1] IO Requests: []
+[P1] IO Burst Time: 1
+[P1] IO Remain Time: 0
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 4 ms
+[P3] IO Requests: [2]
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 5 ms
+[P4] IO Requests: [2]
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 3 ms
+[P5] IO Requests: [2]
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 2 ms
+[P6] IO Requests: [2]
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+---------------------
+Clock: 6
+Free Areas: [950]
+Ready Queue: P3,P4,P5,P6,P7,
+IO Ready Queue: 
+Current Process: P1
+Current IO: NULL
+
+[P1] Process Id: 1
+[P1] Size: 100
+[P1] Start Address:350
+[P1] Incoming Time: 0 ms
+[P1] Remain Execution Time: 5 ms
+[P1] IO Requests: []
+[P1] IO Burst Time: 1
+[P1] IO Remain Time: 0
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 4 ms
+[P3] IO Requests: [2]
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 5 ms
+[P4] IO Requests: [2]
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 3 ms
+[P5] IO Requests: [2]
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 2 ms
+[P6] IO Requests: [2]
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 5 ms
+[P7] IO Requests: [2]
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 7
+Free Areas: [950]
+Ready Queue: P3,P4,P5,P6,P7,
+IO Ready Queue: 
+Current Process: P1
+Current IO: NULL
+
+[P1] Process Id: 1
+[P1] Size: 100
+[P1] Start Address:350
+[P1] Incoming Time: 0 ms
+[P1] Remain Execution Time: 4 ms
+[P1] IO Requests: []
+[P1] IO Burst Time: 1
+[P1] IO Remain Time: 0
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 4 ms
+[P3] IO Requests: [2]
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 5 ms
+[P4] IO Requests: [2]
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 3 ms
+[P5] IO Requests: [2]
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 2 ms
+[P6] IO Requests: [2]
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 5 ms
+[P7] IO Requests: [2]
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 8
+Free Areas: [950]
+Ready Queue: P3,P4,P5,P6,P7,
+IO Ready Queue: 
+Current Process: P1
+Current IO: NULL
+
+[P1] Process Id: 1
+[P1] Size: 100
+[P1] Start Address:350
+[P1] Incoming Time: 0 ms
+[P1] Remain Execution Time: 3 ms
+[P1] IO Requests: []
+[P1] IO Burst Time: 1
+[P1] IO Remain Time: 0
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 4 ms
+[P3] IO Requests: [2]
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 5 ms
+[P4] IO Requests: [2]
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 3 ms
+[P5] IO Requests: [2]
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 2 ms
+[P6] IO Requests: [2]
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 5 ms
+[P7] IO Requests: [2]
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 9
+Free Areas: [950]
+Ready Queue: P3,P4,P5,P6,P7,
+IO Ready Queue: 
+Current Process: P1
+Current IO: NULL
+
+[P1] Process Id: 1
+[P1] Size: 100
+[P1] Start Address:350
+[P1] Incoming Time: 0 ms
+[P1] Remain Execution Time: 2 ms
+[P1] IO Requests: []
+[P1] IO Burst Time: 1
+[P1] IO Remain Time: 0
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 4 ms
+[P3] IO Requests: [2]
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 5 ms
+[P4] IO Requests: [2]
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 3 ms
+[P5] IO Requests: [2]
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 2 ms
+[P6] IO Requests: [2]
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 5 ms
+[P7] IO Requests: [2]
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 10
+Free Areas: [950]
+Ready Queue: P3,P4,P5,P6,P7,
+IO Ready Queue: 
+Current Process: P1
+Current IO: NULL
+
+[P1] Process Id: 1
+[P1] Size: 100
+[P1] Start Address:350
+[P1] Incoming Time: 0 ms
+[P1] Remain Execution Time: 1 ms
+[P1] IO Requests: []
+[P1] IO Burst Time: 1
+[P1] IO Remain Time: 0
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 4 ms
+[P3] IO Requests: [2]
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 5 ms
+[P4] IO Requests: [2]
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 3 ms
+[P5] IO Requests: [2]
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 2 ms
+[P6] IO Requests: [2]
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 5 ms
+[P7] IO Requests: [2]
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 11
+Free Areas: [350, 950]
+Ready Queue: P3,P4,P5,P6,P7,
+IO Ready Queue: 
+Current Process: P1
+Current IO: NULL
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 4 ms
+[P3] IO Requests: [2]
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 5 ms
+[P4] IO Requests: [2]
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 3 ms
+[P5] IO Requests: [2]
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 2 ms
+[P6] IO Requests: [2]
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 5 ms
+[P7] IO Requests: [2]
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 12
+Free Areas: [350, 950]
+Ready Queue: P4,P5,P6,P7,
+IO Ready Queue: P3,
+Current Process: P3
+Current IO: NULL
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 3 ms
+[P3] IO Requests: []
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 1
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 5 ms
+[P4] IO Requests: [2]
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 3 ms
+[P5] IO Requests: [2]
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 2 ms
+[P6] IO Requests: [2]
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 5 ms
+[P7] IO Requests: [2]
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 13
+Free Areas: [350, 950]
+Ready Queue: P5,P6,P7,P3,
+IO Ready Queue: P4,
+Current Process: P4
+Current IO: P3
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 3 ms
+[P3] IO Requests: []
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 4 ms
+[P4] IO Requests: []
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 1
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 3 ms
+[P5] IO Requests: [2]
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 2 ms
+[P6] IO Requests: [2]
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 5 ms
+[P7] IO Requests: [2]
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 14
+Free Areas: [350, 950]
+Ready Queue: P6,P7,P3,P4,
+IO Ready Queue: P5,
+Current Process: P5
+Current IO: P4
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 3 ms
+[P3] IO Requests: []
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 4 ms
+[P4] IO Requests: []
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 2 ms
+[P5] IO Requests: []
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 1
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 2 ms
+[P6] IO Requests: [2]
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 5 ms
+[P7] IO Requests: [2]
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 15
+Free Areas: [350, 950]
+Ready Queue: P7,P3,P4,P5,
+IO Ready Queue: P6,
+Current Process: P6
+Current IO: P5
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 3 ms
+[P3] IO Requests: []
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 4 ms
+[P4] IO Requests: []
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 2 ms
+[P5] IO Requests: []
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 1 ms
+[P6] IO Requests: []
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 1
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 5 ms
+[P7] IO Requests: [2]
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 16
+Free Areas: [350, 950]
+Ready Queue: P3,P4,P5,P6,
+IO Ready Queue: P7,
+Current Process: P7
+Current IO: P6
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 3 ms
+[P3] IO Requests: []
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 4 ms
+[P4] IO Requests: []
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 2 ms
+[P5] IO Requests: []
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 1 ms
+[P6] IO Requests: []
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 4 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 1
+
+---------------------
+Clock: 17
+Free Areas: [350, 950]
+Ready Queue: P4,P5,P6,P7,
+IO Ready Queue: 
+Current Process: P3
+Current IO: P7
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 2 ms
+[P3] IO Requests: []
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 4 ms
+[P4] IO Requests: []
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 2 ms
+[P5] IO Requests: []
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 1 ms
+[P6] IO Requests: []
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 4 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 18
+Free Areas: [350, 950]
+Ready Queue: P4,P5,P6,P7,
+IO Ready Queue: 
+Current Process: P3
+Current IO: NULL
+
+[P3] Process Id: 3
+[P3] Size: 100
+[P3] Start Address:550
+[P3] Incoming Time: 2 ms
+[P3] Remain Execution Time: 1 ms
+[P3] IO Requests: []
+[P3] IO Burst Time: 1
+[P3] IO Remain Time: 0
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 4 ms
+[P4] IO Requests: []
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 2 ms
+[P5] IO Requests: []
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 1 ms
+[P6] IO Requests: []
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 4 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 19
+Free Areas: [350, 550, 950]
+Ready Queue: P4,P5,P6,P7,
+IO Ready Queue: 
+Current Process: P3
+Current IO: NULL
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 4 ms
+[P4] IO Requests: []
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 2 ms
+[P5] IO Requests: []
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 1 ms
+[P6] IO Requests: []
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 4 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 20
+Free Areas: [350, 550, 950]
+Ready Queue: P5,P6,P7,
+IO Ready Queue: 
+Current Process: P4
+Current IO: NULL
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 3 ms
+[P4] IO Requests: []
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 2 ms
+[P5] IO Requests: []
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 1 ms
+[P6] IO Requests: []
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 4 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 21
+Free Areas: [350, 550, 950]
+Ready Queue: P5,P6,P7,
+IO Ready Queue: 
+Current Process: P4
+Current IO: NULL
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 2 ms
+[P4] IO Requests: []
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 2 ms
+[P5] IO Requests: []
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 1 ms
+[P6] IO Requests: []
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 4 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 22
+Free Areas: [350, 550, 950]
+Ready Queue: P5,P6,P7,
+IO Ready Queue: 
+Current Process: P4
+Current IO: NULL
+
+[P4] Process Id: 4
+[P4] Size: 100
+[P4] Start Address:450
+[P4] Incoming Time: 3 ms
+[P4] Remain Execution Time: 1 ms
+[P4] IO Requests: []
+[P4] IO Burst Time: 1
+[P4] IO Remain Time: 0
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 2 ms
+[P5] IO Requests: []
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 1 ms
+[P6] IO Requests: []
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 4 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 23
+Free Areas: [350, 950]
+Ready Queue: P5,P6,P7,
+IO Ready Queue: 
+Current Process: P4
+Current IO: NULL
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 2 ms
+[P5] IO Requests: []
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 1 ms
+[P6] IO Requests: []
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 4 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 24
+Free Areas: [350, 950]
+Ready Queue: P6,P7,
+IO Ready Queue: 
+Current Process: P5
+Current IO: NULL
+
+[P5] Process Id: 5
+[P5] Size: 100
+[P5] Start Address:650
+[P5] Incoming Time: 4 ms
+[P5] Remain Execution Time: 1 ms
+[P5] IO Requests: []
+[P5] IO Burst Time: 1
+[P5] IO Remain Time: 0
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 1 ms
+[P6] IO Requests: []
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 4 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 25
+Free Areas: [350, 950]
+Ready Queue: P6,P7,
+IO Ready Queue: 
+Current Process: P5
+Current IO: NULL
+
+[P6] Process Id: 6
+[P6] Size: 100
+[P6] Start Address:750
+[P6] Incoming Time: 5 ms
+[P6] Remain Execution Time: 1 ms
+[P6] IO Requests: []
+[P6] IO Burst Time: 1
+[P6] IO Remain Time: 0
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 4 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 26
+Free Areas: [350, 950]
+Ready Queue: P7,
+IO Ready Queue: 
+Current Process: P6
+Current IO: NULL
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 4 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 27
+Free Areas: [350, 950]
+Ready Queue: 
+IO Ready Queue: 
+Current Process: P7
+Current IO: NULL
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 3 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 28
+Free Areas: [350, 950]
+Ready Queue: 
+IO Ready Queue: 
+Current Process: P7
+Current IO: NULL
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 2 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 29
+Free Areas: [350, 950]
+Ready Queue: 
+IO Ready Queue: 
+Current Process: P7
+Current IO: NULL
+
+[P7] Process Id: 7
+[P7] Size: 100
+[P7] Start Address:850
+[P7] Incoming Time: 6 ms
+[P7] Remain Execution Time: 1 ms
+[P7] IO Requests: []
+[P7] IO Burst Time: 1
+[P7] IO Remain Time: 0
+
+---------------------
+Clock: 30
+Free Areas: [350]
+Ready Queue: 
+IO Ready Queue: 
+Current Process: P7
+Current IO: NULL
+
